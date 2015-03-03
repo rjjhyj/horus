@@ -188,12 +188,12 @@ class ImageSegmentation(ExpandablePanel):
     def initialize(self):
         self.clearSections()
         section = self.createSection('image_segmentation_simple',None, tag=_("Without Texture"))
-        section.addItem(CheckBox, 'use_cr_threshold', lambda v: self.simpleScan.setUseThreshold(bool(v)), tooltip=_("The threshold is used to remove noise."))
+        section.addItem(CheckBox, 'use_cr_threshold', lambda v: self.simpleScan.setUseThreshold(bool(v)), tooltip=_("hreshold is an algorithm used to remove the noise when scanning. It replaces each pixel in the image with a black pixel if the image intensity is less than the threshold value, or with a white pixel if the image intensity is greater."))
         section.addItem(Slider, 'cr_threshold_value', lambda v: self.simpleScan.setThresholdValue(int(v)))
         section = self.createSection('image_segmentation_texture', None, tag=_("With Texture"))
         section.addItem(CheckBox, 'use_open', lambda v: self.textureScan.setUseOpen(bool(v)), tooltip=_("Open is an algorithm used to remove the noise when scanning. The higher its value, the lower the noise but also the lower the detail in the 3D model. The value of the Threshold parameter has influence in this algorithm."))
         section.addItem(Slider, 'open_value', lambda v: self.textureScan.setOpenValue(int(v)))
-        section.addItem(CheckBox, 'use_threshold', lambda v: self.textureScan.setUseThreshold(bool(v)), tooltip=_("The threshold is used to remove noise."))
+        section.addItem(CheckBox, 'use_threshold', lambda v: self.textureScan.setUseThreshold(bool(v)), tooltip=_("hreshold is an algorithm used to remove the noise when scanning. It replaces each pixel in the image with a black pixel if the image intensity is less than the threshold value, or with a white pixel if the image intensity is greater."))
         section.addItem(Slider, 'threshold_value', lambda v: self.textureScan.setThresholdValue(int(v)))
 
 class PointCloudGeneration(ExpandablePanel):
