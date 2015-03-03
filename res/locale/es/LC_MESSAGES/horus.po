@@ -71,7 +71,7 @@ msgstr "Cámara Id"
 
 #: ../../src/horus/gui/preferences.py:56
 msgid "Burn Firmware"
-msgstr "Cargar Firmware"
+msgstr "Cargar firmware"
 
 #: ../../src/horus/gui/preferences.py:57
 msgid "AVR Board"
@@ -83,7 +83,7 @@ msgstr "Borrar EEPROM"
 
 #: ../../src/horus/gui/preferences.py:62
 msgid "Upload Firmware"
-msgstr "Cargar Firmware"
+msgstr "Cargar firmware"
 
 #: ../../src/horus/gui/preferences.py:66 ../../src/horus/util/profile.py:302
 msgid "Language"
@@ -106,7 +106,7 @@ msgstr "Debes reiniciar la aplicación para que los cambios puedan realizarse."
 msgid ""
 "Pattern distance value must be a number higher than 0. Please, change it in "
 "the textbox below."
-msgstr "La distancia del patrón debe ser mayor que 0. Por favor, cambialo."
+msgstr "La distancia del patrón debe ser mayor que 0. Por favor, cámbialo."
 
 #: ../../src/horus/gui/util/patternDistanceWindow.py:56
 #: ../../src/horus/gui/wizard/connectionPage.py:291
@@ -161,9 +161,9 @@ msgid ""
 "Do you really want to reset?"
 msgstr ""
 "Se van a restaurar los parámetros del perfil por defecto.\n"
-"A menos que hayas guardado el perfil actual, ¡todos los cambios se "
+"Si no has guardado el perfil actual, ¡todos los cambios se "
 "perderán!\n"
-"¿Quieres realmente hacer reset?"
+"¿Realmente quieres hacer reset?"
 
 #: ../../src/horus/gui/util/openglGui.py:270
 msgid "An error has occurred during the 3D view drawing."
@@ -262,8 +262,8 @@ msgid ""
 msgstr ""
 "Se van a restaurar los valores intrínsecos de la cámara a los valores por "
 "defecto.\n"
-"A menos que hayas guardado el perfil actual, todos los cambios se perderán!\n"
-"¿Quieres realmente hacer reset?"
+"A menos que hayas guardado el perfil actual, ¡todos los cambios se perderán!\n"
+"¿Realmente quieres hacer reset?"
 
 #: ../../src/horus/gui/workbench/calibration/panels.py:250
 msgid "Camera Intrinsics reset"
@@ -301,12 +301,12 @@ msgstr ""
 "Se van a restaurar los parámetros de la triangulación láser a los valores "
 "por defecto.\n"
 "A menos que hayas guardado el perfil actual, todos los cambios se perderán!\n"
-"¿Quieres realmente hacer reset?"
+"¿Realmente quieres hacer reset?"
 
 #: ../../src/horus/gui/workbench/calibration/panels.py:428
 #: ../../src/horus/gui/workbench/calibration/panels.py:606
 msgid "Laser Triangulation reset"
-msgstr "Resetea la triangulación láser"
+msgstr "Resetear la triangulación láser"
 
 #: ../../src/horus/gui/workbench/calibration/panels.py:500
 msgid "Laser Simple Triangulation Calibration"
@@ -342,7 +342,7 @@ msgstr ""
 "Se van a restaurar los parámetros de la triangulación láser simple a los "
 "valores por defecto.\n"
 "A menos que hayas guardado el perfil actual, todos los cambios se perderán!\n"
-"¿Quieres realmente hacer reset?"
+"¿Realmente quieres hacer reset?"
 
 #: ../../src/horus/gui/workbench/calibration/panels.py:672
 #: ../../src/horus/gui/workbench/calibration/pages.py:723
@@ -375,7 +375,7 @@ msgstr ""
 "Se van a restaurar los parámetros de la calibración extrínseca a los valores "
 "por defecto.\n"
 "A menos que hayas guardado el perfil actual, todos los cambios se perderán!\n"
-"¿Quieres realmente hacer reset?"
+"¿Realmente quieres hacer reset?"
 
 #: ../../src/horus/gui/workbench/calibration/panels.py:751
 msgid "Platform Extrinsics reset"
@@ -611,7 +611,7 @@ msgid ""
 "Your current scanning will be stopped.\n"
 "Do you really want to do it?"
 msgstr ""
-"Tu escaneo se parará.\n"
+"Tu escaneo se detendrá.\n"
 "¿Realmente quieres hacerlo?"
 
 #: ../../src/horus/gui/workbench/scanning/main.py:230
@@ -633,7 +633,7 @@ msgid ""
 "Please select your Board and press Upload Firmware"
 msgstr ""
 "La placa tiene un firmware o un baud rate incorrectos.\n"
-"Por favor, selecciona tu placa y haz click en Cargar Firmware "
+"Por favor, selecciona tu placa y haz click en Cargar firmware "
 
 #: ../../src/horus/gui/workbench/workbench.py:136
 msgid ""
@@ -725,7 +725,7 @@ msgstr "Panel"
 #: ../../src/horus/gui/main.py:132 ../../src/horus/gui/main.py:136
 #: ../../src/horus/gui/main.py:140
 msgid "Video"
-msgstr "Video"
+msgstr "Vídeo"
 
 #: ../../src/horus/gui/main.py:133
 msgid "Control"
@@ -785,7 +785,7 @@ msgid ""
 msgstr ""
 "Se van a restaurar los parámetros del perfil por defecto.\n"
 "A menos que hayas guardado el perfil actual, todos los cambios se perderán!\n"
-"¿Quieres realmente hacer reset?"
+"¿Realmente quieres hacer reset?"
 
 #: ../../src/horus/gui/main.py:287
 msgid "Profile reset"
@@ -841,7 +841,7 @@ msgid ""
 msgstr ""
 "La placa tiene un Firmware no válido.\n"
 "Por favor, selecciona tu placa\n"
-"y haz click en Cargar Firmware"
+"y haz click en Cargar firmware"
 
 #: ../../src/horus/gui/wizard/connectionPage.py:151
 msgid ""
@@ -864,7 +864,7 @@ msgid ""
 "Do you want to adjust it now?"
 msgstr ""
 "Es recomendable ajustar las líneas de los láseres verticalmente.\n"
-"Necesitas usar una llave allen.\n"
+"Necesitas usar una llave Allen.\n"
 "¿Quieres ajustarlo ahora?"
 
 #: ../../src/horus/gui/wizard/connectionPage.py:178
@@ -874,7 +874,7 @@ msgstr "Ajuste manual del láser"
 #: ../../src/horus/gui/wizard/connectionPage.py:212
 #: ../../src/horus/gui/wizard/calibrationPage.py:204
 msgid "All OK. Please press next to continue"
-msgstr "Todo OK. Haz click en siguiente para continuar"
+msgstr "Todo OK. Haz click en Siguiente para continuar"
 
 #: ../../src/horus/gui/wizard/connectionPage.py:214
 msgid "Error in Auto check. Please try again"
@@ -955,7 +955,7 @@ msgid ""
 "Press Play button to start scanning."
 msgstr ""
 "Has acabado el wizard.\n"
-"Presiona el botón de Play para empezar a escanear"
+"Presiona el botón Play para empezar a escanear"
 
 #: ../../src/horus/gui/wizard/main.py:145
 msgid "Ready to scan!"
@@ -1153,7 +1153,7 @@ msgstr "Origen del láser"
 
 #: ../../src/horus/util/profile.py:282
 msgid "Laser Normal"
-msgstr "Normal del láser"
+msgstr "Láser normal"
 
 #: ../../src/horus/util/profile.py:286
 msgid "Move"
@@ -1216,7 +1216,7 @@ msgstr "Color del modelo"
 
 #: ../../src/horus/util/profile.py:319
 msgid "Display color for first extruder"
-msgstr "Mostrar el color para el primer estrusor"
+msgstr "Mostrar el color para el primer extrusor"
 
 #: ../../src/horus/util/error.py:45
 msgid "Wrong Firmware"
@@ -1334,7 +1334,7 @@ msgstr "Error en el escaneo"
 
 #~ msgid "Here you can see the plot, please, accept or reject the calibration"
 #~ msgstr ""
-#~ "Aquí puedes ver la gráfica, por favor, acepta o rechaza la calibración"
+#~ "Aquí puedes ver la gráfica. Por favor, acepta o rechaza la calibración"
 
 #~ msgid "Extrinsic calibration (Step 1): rotating plate calibration"
 #~ msgstr "Calibración extrínseca (Paso 1): calibración del plato rotatorio"
@@ -1361,10 +1361,10 @@ msgstr "Error en el escaneo"
 #~ msgstr "Motor CW"
 
 #~ msgid "Left Laser Off"
-#~ msgstr "Láser Izquierdo Off"
+#~ msgstr "Láser izquierdo Off"
 
 #~ msgid "Right Laser Off"
-#~ msgstr "Láser Derecho Off"
+#~ msgstr "Láser derecho Off"
 
 #~ msgid "Algorithm"
 #~ msgstr "Algoritmo"
